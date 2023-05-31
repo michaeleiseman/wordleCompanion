@@ -1,0 +1,45 @@
+#container {
+    width: 100%;
+    max-width: 800px;
+    margin:auto
+}
+#flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+
+}
+.row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+input {
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: sans-serif
+}
+.button {
+    height: 20px;
+    cursor: pointer
+}
+.gray {
+    background-color: gray;
+}
+.gold {
+    background-color: gold;
+}
+.darkgreen {
+    background-color: green;
+}
+#choices, #numWords {
+    text-align: center;
+}
+#numWords {
+    font-family: sans-serif;
+    font-weight: bold;
+}
