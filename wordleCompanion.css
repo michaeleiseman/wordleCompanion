@@ -1,5 +1,5 @@
 #container {
-    width: 90dvw;
+    width: 90svw;
     margin:auto
 }
 #flex {
@@ -32,13 +32,13 @@ input {
 .buttonBox {
     display: flex;
     justify-content: space-between;
-    
 }
 .button {
     flex: 1;
     height: 10vw;
     cursor: pointer;
-    min-width: none
+    min-width: none;
+
 }
 .gray {
     background-color: gray;
