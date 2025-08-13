@@ -1,6 +1,5 @@
 #container {
     width: 100%;
-    max-width: 800px;
     margin:auto
 }
 #flex {
@@ -22,10 +21,10 @@
     align-items: stretch;
 }
 input {
-    height: 100px;
+    height: 20vw;
     border: 2px solid gray;
     text-align: center;
-    font-size: 48px;
+    font-size: 15vw;
     font-weight: bold;
     font-family: sans-serif;
     min-width: none
@@ -37,7 +36,7 @@ input {
 }
 .button {
     flex: 1;
-    height: 40px;
+    height: 10vw;
     cursor: pointer;
     min-width: none
 }
@@ -51,7 +50,7 @@ input {
     background-color: green;
 }
 #choices, #numWords {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     width: 100%
 }
