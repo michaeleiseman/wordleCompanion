@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    max-width: 15vw;
 }
 input {
     height: 20vw;
