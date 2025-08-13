@@ -24,10 +24,9 @@ input {
     height: 20vw;
     border: 2px solid gray;
     text-align: center;
-    font-size: 20vw;
+    font-size: 15vw;
     font-weight: bold;
     font-family: sans-serif;
-    min-width: none
 }
 .buttonBox {
     display: flex;
