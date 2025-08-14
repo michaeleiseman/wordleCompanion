@@ -1,5 +1,5 @@
 #container {
-    width: 90svw;
+    width: 90vw;
     margin:auto
 }
 #flex {
@@ -21,7 +21,7 @@
     align-items: stretch;
 }
 input {
-    height: 20vw;
+    height: 15vw;
     border: 2px solid gray;
     text-align: center;
     font-size: 15vw;
