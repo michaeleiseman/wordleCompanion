@@ -83,7 +83,7 @@ function showChoices() {
                         //if the target word has at least one of the letter indicated in this input
                         if(lettersInWord.some(let => let == letter)) {
                             //only allow words that have the exact number of letters that must be in this word
-                            choices = choices.filter(word => determineOccurrencesInWord(word, letter) == numberOfThisLetter);
+                            choices = choices.filter(word => word.charAt[inputIndex] != letter && determineOccurrencesInWord(word, letter) == numberOfThisLetter);
                         //if the target word doesn't have any of the letter indicated in this input
                         } else {
                             //filter out any word that contains this letter.
